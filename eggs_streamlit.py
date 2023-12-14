@@ -45,6 +45,7 @@ state_count = df['state'].value_counts().reset_index()
 state_count.columns = ['state', 'state_count']
 
 st.subheader("Bar Chart of the Number of Recall Events per State")
+
 bar = alt.Chart(state_count).mark_bar().encode(x = 'state_count', y = alt.Y('state', sort = '-x')).properties(height=1000)
 st.altair_chart(bar, use_container_width=True)
 
@@ -52,8 +53,19 @@ st.altair_chart(bar, use_container_width=True)
 Q3,Q4 = st.columns(2)
 
 with Q3:
-    st.write("Here are some words")
+    st.subheader("Boxplot of Month Separated by Classification")
 
 
+    box = alt.Chart(df).mark_boxplot(extent='min-max').encode(x = 'classification', y = 'report_month')
+    st.altair_chart(box, use_container_width=True)
+
+classify_count = df['classification'].value_counts().reset_index()
+classify_count.columns = ['classification', 'classify_count']
+
+with Q4:
+    st.subheader('Donut Chart of Number of the Classifications of Recall Events')
+
+    donut = alt.Chart(classify_count).mark_arc(innerRadius=50).encode(theta="classify_count", color="classification")
+    st.altair_chart(donut, use_container_width=True)
 
 
