@@ -10,7 +10,7 @@ df['report_year'] = df['report_year'].astype(str)
 
 
 st.markdown("#")
-st.markdown("#")
+
 st.subheader("Table of the Data Used to Analyze Egg-Related Recall Events")
 st.dataframe(df)
 
@@ -39,7 +39,20 @@ with Q2:
 
     st.write("This line chart shows how many recall events have occurred over the past 11 years. The highest number of events occurred in 2017, and the lowest number is in 2012.")
 
+st.markdown("#")
 
+state_count = df['state'].value_counts().reset_index()
+state_count.columns = ['state', 'state_count']
+
+st.subheader("Bar Chart of the Number of Recall Events per State")
+bar = alt.Chart(state_count).mark_bar().encode(x = 'state_count', y = alt.Y('state', sort = '-x')).properties(height=1000)
+st.altair_chart(bar, use_container_width=True)
+
+
+Q3,Q4 = st.columns(2)
+
+with Q3:
+    st.write("Here are some words")
 
 
 
