@@ -1,2 +1,2 @@
 # s386Fall2023-project
-This is the README file for my project!
+This is the README file for my project! The purpose of this repository is to analyze egg-related recall events from the years of 2012 to 2023 conducted by the FDA. This repository includes that data used for analysis, the feedback received while producing this repository, and the code I used to complete my analysis. I hope you learn some interesting random stuff about eggs in here!
