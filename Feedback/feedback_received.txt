@@ -1,19 +1,47 @@
 Choosing a Topic:
     What Feedback Did I Received?
+    - I talked to a number of individuals (my family and my co-workers at the Testing Center) about this project.
+    I initially wanted to examine drug related cases
+    from the OpenFDA API, but I received the feedback that people might be more interested in something
+    completely random, since I'm into random things like that.
 
     What Changes Did I Make Because of that Feedback?
-    
+    - Because of the feedback I received, I decided to examine egg-related recall events from the same OpenFDA 
+    API. This topic is quite random, but I think it is kinda fun to learn about what may seem like non-sensical things.
+    As far as I can tell, someone took the time to gather all of this data on eggs, so someone ought to use it for the
+    education of the people.
+
+
 Data Collection Blog:
     What Feedback Did I Received?
+    - Byron: Very well documented and easy to follow. You were clear with your explanations and
+     have plenty of links to relevant things.  
+
+    - Brady: It was helpful that you showed your code for each section of the project
+    I thought that you explained each step of the process well, including how to get an API key for this particular api
+    Maybe showing a screenshot of a snippet of your dataset could be helpful for visualing the results of your collection process.
+    
+    - Jacob:
 
     What Changes Did I Make Because of that Feedback?
+
 
 Exploratory Analysis Blog:
     What Feedback Did I Received?
+    - Byron: EDA blog looks amazing, its well written and easy to follow. I liked the differences in visuals,
+     they gave a good spread in information. 
+
+    - Brady:
+
+    - Jacob:
 
     What Changes Did I Make Because of that Feedback?
 
+
 Dashboard:
     What Feedback Did I Received?
+    - Byron: Your dashboard is fantastic as well, it shows your EDA graphs clearly and simply. 
+    - Brady:
+    - Jacob:
 
     What Changes Did I Make Because of that Feedback?
