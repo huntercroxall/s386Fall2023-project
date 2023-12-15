@@ -22,10 +22,6 @@ year_count.columns = ['report_year', 'year_count']
 with Q1:
     st.dataframe(year_count)
     
-    
-
-
-
 with Q2:
     st.subheader("Line Chart of Number of Recall Events per Year")
 
