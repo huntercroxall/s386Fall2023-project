@@ -58,3 +58,6 @@ Dashboard:
     What Changes Did I Make Because of that Feedback?
     - I added simple additional charts to make the dashboard more interactive. I also tried to minimize whitespace and organize charts in a
     more managable fashion.
+
+    SHA Commit Code when feedback for dashboard, collection, and analysis was received
+61bfc3329d5f968ac70afb5f5ba2014607129134
