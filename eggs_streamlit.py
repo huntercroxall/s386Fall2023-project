@@ -49,6 +49,9 @@ st.subheader("Bar Chart of the Number of Recall Events per State")
 bar = alt.Chart(state_count).mark_bar().encode(x = 'state_count', y = alt.Y('state', sort = '-x')).properties(height=1000)
 st.altair_chart(bar, use_container_width=True)
 
+st.write("This bar chart shows where the most egg-related recall events occur. As you can see, California has the most by a huge margin, followed by many of the other highly populated states of the US.")
+
+st.markdown('#')
 
 Q3,Q4 = st.columns(2)
 
