@@ -21,9 +21,11 @@ Data Collection Blog:
     I thought that you explained each step of the process well, including how to get an API key for this particular api
     Maybe showing a screenshot of a snippet of your dataset could be helpful for visualing the results of your collection process.
     
-    - Jacob:
+    - Jacob: Good job separating code from words! I think you could simplify the wordiness of the intro and the conclusion.
 
     What Changes Did I Make Because of that Feedback?
+    - Based on the feedback that I received, I edited my intro and conclusion. I also added a code snippet at the end to show the
+    finished product after gathering the data.
 
 
 Exploratory Analysis Blog:
@@ -31,17 +33,28 @@ Exploratory Analysis Blog:
     - Byron: EDA blog looks amazing, its well written and easy to follow. I liked the differences in visuals,
      they gave a good spread in information. 
 
-    - Brady:
+    - Brady: You included some awesome visualizations that gave me a good idea of how egg recall values were distributed among different categories.
+    It would be helpful on Viz 6 to see each name of the month instead of number, but that could be a preference thing
+    Also, you could summarize each graph under each individual graph instead of including it all in 1 section at the end
 
-    - Jacob:
+    - Jacob: You should better deliniate the difference between each visualization by separating each section with a line or something.
 
     What Changes Did I Make Because of that Feedback?
+    - I addded separating lines to clarify what captions go with which visualization. I feel that doing this absolved both of the concerns shared
+    through the feedback received.
 
 
 Dashboard:
     What Feedback Did I Received?
     - Byron: Your dashboard is fantastic as well, it shows your EDA graphs clearly and simply. 
-    - Brady:
-    - Jacob:
+
+    - Brady: I liked seeing the change in number of recalls as the years went on, that gave me a good idea of how those figures change
+    It would be cool to have some filtering sliders or boxes to adjust the range of years or states, so you could see more specific comparisons
+    Good job!
+
+    - Jacob: I found the dashboard to be a bit confusing, perhaps if you added some additional charts you could make the dashboard more interactive.
+    I also feel like there was too much blank space between items that made for a waste of space.
 
     What Changes Did I Make Because of that Feedback?
+    - I added simple additional charts to make the dashboard more interactive. I also tried to minimize whitespace and organize charts in a
+    more managable fashion.
